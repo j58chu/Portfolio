@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ux Designer | Jessica Chu</title>
+    <link rel="icon" href="img/personal/jessicachulogo.webp">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <script src="js/theme.js"></script>
+  </head>
+  <body>
+    <nav id="top">
+      <div class="left-nav">
+        <img class="logo-nav" src="img/personal/jessicachulogo.webp" onclick="newHref('index')" alt="logo" width="1890" height="1890">
+      </div>
+      <div class="collapsed-nav">
+        <div id="toggle-theme" onclick="toggleTheme()"></div>
+        <div id="menuButton-nav" onclick="menuButton()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="right-nav" id="navMenu">
+        <div onclick="newHref('index')">
+          <span>Work</span>
+        </div>
+        <div onclick="newHref('about')">
+          <span>About</span>
+        </div>
+        <div>
+          <span><a href="img/personal/Resume_chujessica.pdf" target="_blank">Resume</a></span>
+        </div>
+        <div>
+          <span><a href="https://www.linkedin.com/in/jessica-c-72a26113b/" target="_blank" aria-label="LinkedIn" rel="noopener"><i class="fa fa-linkedin-square"></i></a></span>
+        </div>
+      </div>
+    </nav>
+    <div id="scroll-progress" class="purple-bg"></div>
+    <main>
+      <h1 class="purple m fadeTop">Building a gift recommending business</h1>
+      <h2 class="m fadeTop">DONAVI</h2>
+      <img class="img mt fadeTop" src="img/donavi/donavihero.webp" alt="DONAVI">
+      <div class="overview fadeTop">
+        <div class="purple-bg"></div>
+        <div>
+          <h4>
+            <b>Role</b>
+            <p class="m">Designer</p>
+          </h4>
+          <h4>
+            <b>Duration</b>
+            <p class="m">May - August 2021</p>
+          </h4>
+          <h4>
+            <b>Tools</b>
+            <p class="m">Figma, Photoshop</p>
+          </h4>
+          <h4>
+            <b>Project type</b>
+            <p class="m">UX research, UX design</p>
+          </h4>
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Brief</b></h2>
+        <h5>
+          Over the summer, I was fortunate enough to be a part of 
+          <b class="purple">University of Toronto's Hatchery program NEST</b>. 
+          The Hatchery is a program that offers resources and opportunity to launch 
+          or further develop startups. 
+          <p>My team and I were looking to build a business based on our idea of recommending 
+            gifts to people. The idea of Donavi came about when we realised that <b>looking for gifts 
+              can be extremely time consuming</b>.<p>With so many websites out there to choose from, the 
+                options for gifts are endless. We wanted to simplify the process for those that are 
+                looking for a fast and easy way to select the perfect gift.</p>
+          </p>
+          <p><b>The team</b></p>
+          <p>I worked alongside 5 people to create this product. We were a group of students from different educational backgrounds who came together for this project. </p>
+          <img class="img mb" src="img/donavi/theteam.webp" alt="meet the team">
+        </h5>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Initial Problem Discovery</b></h2>
+        <div>
+          <h5>The initial idea was discovered when we realized while looking for a gift for one of our friends, there was a lot of back and forth unsureness when it came to figuring out what to get and that it can be quite difficult to think of a gift idea on the spot. Usually when I think about getting a gift for someone, it can take days because there are so many shopping brands online with a bunch of products that it just gets overwhelming and time consuming to choose something. 
+          </h5>
+          <img class="img mt" src="img/donavi/textmessages.webp" alt="persona">
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Problem Statement</b></h2>
+        <div>
+          <h5>After spending some time contemplating about what the big problem was, I came up with this problem statement that defined what our goal was</h5>
+          <div class="bar mt mb">
+            <div class="text-bg"></div>
+            <h3 class="m">
+              <b>
+                How can we <u><i>simplify</i></u> the process of selecting a gift so that it reduces information overload and feeling overwhelmed?
+              </b>
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>User Research</b></h2>
+        <div>
+          <h5>
+             We wanted to first validate our product by conducting user interviews and surveys to gather a wide range of data such as determining who our target demographic is and what people thought was the most frustrating part of gifting. Collectively as a team, we gathered over <b class="purple">200 responses</b> of primary research data. Here were some of the findings:
+            <p><b>Interviews</b></p>
+            <p>
+              We asked users open ended questions to get a better understanding of what their process was like finding a gift for someone. Based on the responses of particpants, we created a survey to help provide more quantitative data to support our theoretical idea of what the gifting journey is like
+            </p>
+            <p><b>Survey Data</b></p>
+          </h5>
+          <img class="img mb" src="img/donavi/donavi_graph1.webp" alt="Donavi Graph 1">
+          <img class="img" src="img/donavi/donavi_graph2.webp" alt="Donavi Graph 2">
+          <h5>
+            <p>
+              From our interviews and survey results combined we gathered three key points:
+            </p>
+              <ol>
+                <b>
+                  <li>
+                    <p>
+                      61% of people who find browsing online stores for options/doing research the hardest thing about gifting finds gifting difficult overall.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      75% of users found that there was choice and information overload in shopping because there are so many brands and products in the fashion industry
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      50% of surveyors think that gifting takes too much time
+                    </p>
+                  </li>
+                </b>
+              </ol>
+          </h5>
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>User Journey Map</b></h2>
+        <div>
+          <h5>To better visualize the user journey of purchasng a gift, I created a user journey map to present to mentors and the team. Based on our research, I outlined the two main areas that people found to have the most frustration in.</h5>
+          <img class="img mt mb" src="img/donavi/ujm_donavi.webp" alt="User Journey Map">
+          <h5>I then thought about creating another journey map as a point of comparison of what the customer journey of our platform might look like and how it will tackle the pain points of the gift giving journey. 
+          </h5>
+          <img class="img mt" src="img/donavi/cjm_donavi.webp" alt="User Journey Map">
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Target Audience</b></h2>
+        <div>
+          <h5>Through research, we also gained a better perspective of who our main user group would be. We found that the group 
+            with the most difficulty with finding a gift were men aged 25-35 years of age. Taking what I learnt from research, I put together what I imagined to be our target audience in a persona to make it easily relatable to people and also
+             easier to empathize with the user.
+          </h5>
+          <img class="img-70 mt" src="img/donavi/Persona.webp" width="1000px" height="2000px" alt="persona">
+        </div>
+      </div>
+      <hr class="fadeTop">
+      <div class="tab fadeTop">
+        <h2><b>Design Process</b></h2>
+        <div>
+          <h5>
+            <b>Design goals</b>
+            <ul>
+              <li>To ease the process of choosing gifts so users are not overwhelmed with gift options</li>
+              <li>Ensure the responsiveness of the web app across Android, IOS and other mobile platforms</li>
+              <li>Build a user-friendly interface that users will find efficient in achieving their goal of finding a gift for the recipient</li>
+            </ul>
+            <p>
+              The first thing I did was discuss with the team the most necessary features we would need to include on our platform for our MVP. I took our main 
+              features and then created a site map of the product so I know what screens I would need to design. 
+            </p>
+          </h5>
+          <img class="img" src="img/donavi/Doni Customer Flow.webp" style="max-width: 22em;" alt="Customer Flow">
+          <h5>
+            <p><b>Design Palette</b></p>
+            <p>I created a design guide that would help with consistency designing across screens.</p>
+          </h5>
+          <img class="img" src="img/donavi/Donavi_colourpalette.webp" alt="Colour Palette">
+          <h5>
+            <p><b>Wireframes</b></p>
+            <p>Following the customer flow chart, I iterated the basic layout and organization for each page indicating how users should interact at each action button or layout and how the application will respond.</p>
+          </h5>
+          <img class="img" src="img/donavi/donavi_wireframes.webp" alt="Wireframes">
+          <h5>
+            <p><b>Mockups</b></p>
+            <p>Once the layout was settled on, I started working on creating a high fidelity of the app to showcase our pitch to stakeholders. These mockups provided a visuals for our developors and the investors we were going to present to.</p>
+          </h5>
+          <img class="img" src="img/donavi/donavi_hifi.webp" alt="HiFi">
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Final Prototype</b></h2>
+        <div>
+          <h5>In our final solution we wanted to emphasize the three main steps for our recommendation:
+          </h5>
+          <div class="features mb">
+            <div>
+              <div>
+                <h4><b>Enter Basic Information</b></h4>
+                <h5>
+                Users enter basic information about their recipient such as the gift occasion, relationship, gender, price range and age.
+                </h5>
+              </div>
+              <div class="iphone12">
+                <img src="img/involve/iphone12.webp" width="1179" height="2257" alt="iphone">
+                <video src="img/donavi/basicinfo.mp4" loop autoplay></video>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h4><b>Information about the gift recipient's personality and interests</b></h4>
+                <h5>
+                  We added a couple of fun questions to help get a better understanding of the type of products the gift recipient may like.
+                </h5>
+              </div>
+              <div class="iphone12">
+                <img src="img/involve/iphone12.webp" width="1179" height="2257" alt="iphone">
+                <video src="img/donavi/interest.mp4" loop autoplay></video>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h4><b>See the recommendation</b></h4>
+                <h5>
+                  The user can then click see recommendation and a list of 5 products will show up. If they like the recommendation,
+                  they can click on the product and be directed to the site to buy the product.
+                </h5>
+              </div>
+              <div class="iphone12">
+                <img src="img/involve/iphone12.webp" width="1179" height="2257" alt="iphone">
+                <video src="img/donavi/recommendations.mp4" loop autoplay></video>
+              </div>
+            </div>
+            </div>
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Presentation / Pitch</b></h2>
+        <div>
+          <h5>
+            Throughout the summer, to prep for demo day, startups woud have to pitch their idea to a judging panel for critique. I had the opportunity to present to the panel for 2 of the four pitches. These practice pitches helped us get feedback on content and delivery of our pitch so that it will continually improve. Below is a video of how our most recent pitch went.
+          </h5>
+          <iframe class="mt" src="https://player.vimeo.com/video/576923079?h=75c987e1ae" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Takeaways</b></h2>
+        <h5>
+          The Hatchery NEST program was an eye-opening experience into learning more about entrepreneurship and what it takes to create a successful startup. Unfortunately, our team wasn’t able to make it to the final Demo Day pitch, we’ve taken away a lot of skills and will continue to work on building out this project as it is still in its early stages. As the sole UX designer on the team, I was able to make a lot of the design decisions and have a lot of creative freedom. Since we were a small team, we were able to experience areas of expertise outside our own interests. Along with designing the user interface and flow of the web platform, I also had the opportunity to pitch, conduct market research and create graphics. 
+          <p class="purple"><b>Here were some of the takeaways from this project:</b></p>
+          <ol>
+            <li>
+              <p>
+                <b>Newfound knowledge about building a startup, entrepreneurship and understanding the product cycle from beginning to end.</b>
+              </p>
+            </li>
+            <li>
+              <p>
+                <b>Importance of identifying a clear problem and target market</b>
+              </p>
+              <p>
+                Coming into the program, our team had a clear idea of what we wanted to create. However, in the beginning stages of our time at NEST, our mentors suggested we re-evaluate our problem and who our target audience is. Our team spent a lot of time conducting primary and secondary research to back up our problem statement which was eventually refined and reciprocated well with the panel of judges when we pitched.
+              </p>
+            </li>
+            <li>
+              <p>
+                <b>Being adaptive and a team-player</b>
+              </p>
+              <p>
+                b. Being in a start up environment had its ups and downs. Our team faced a lot of critique with our product idea which in return affected the team’s spirits. As a result, nobody was willing to take the initiative to pitch for the last two pitches. I hadn’t planned on presenting our pitches but I offered to take charge and pitch on behalf of the team. I also had to remake the slide decks, design the graphics as presentation prep as well. This experience had taught me to be a better presenter but also to be adaptive in a team environment.  
+              </p>
+            </li>
+          </ol>
+        </h5>
+      </div>
+    </main>
+
+    <a class="back-to-top" href="#top"><i class="fas fa-angle-up"></i></a>
+
+    <div id="string"></div>
+    <svg id="light" width="48.000000pt" height="48.000000pt" viewBox="0 0 58.000000 58.000000" onclick="toggleTheme()">
+      <g id="sv" transform="translate(0.000000,58.000000) scale(0.100000,-0.100000)" fill="#FFFFFF" stroke="none">
+      <path d="M243 540 c-19 -8 -23 -17 -23 -56 0 -38 -6 -53 -31 -82 -64 -72 -76
+      -147 -34 -217 59 -101 211 -101 270 0 42 70 30 145 -34 217 -23 27 -31 45 -31
+      74 0 22 -4 45 -9 52 -10 17 -79 25 -108 12z m92 -47 c0 -26 -3 -28 -44 -28
+      -27 0 -46 5 -48 13 -3 8 7 12 31 12 48 0 46 18 -1 23 -33 3 -31 4 12 5 49 2
+      51 1 50 -25z m37 -100 c64 -86 73 -124 41 -190 -46 -98 -200 -97 -247 1 -30
+      64 -17 120 48 198 27 33 36 38 76 38 43 0 48 -3 82 -47z"/>
+      <path class="sv" d="M110 442 c0 -14 39 -46 47 -39 3 4 -2 16 -12 27 -19 21 -35 26 -35
+      12z"/>
+      <path class="sv" d="M435 430 c-10 -11 -15 -23 -12 -27 8 -7 47 25 47 39 0 14 -16 9 -35
+      -12z"/>
+      <path class="sv" d="M40 270 c0 -5 14 -10 30 -10 17 0 30 5 30 10 0 6 -13 10 -30 10 -16
+      0 -30 -4 -30 -10z"/>
+      <path class="sv" d="M480 270 c0 -5 14 -10 30 -10 17 0 30 5 30 10 0 6 -13 10 -30 10 -16
+      0 -30 -4 -30 -10z"/>
+      <path class="sv" d="M127 122 c-28 -30 -20 -49 8 -22 25 24 32 40 17 40 -5 0 -16 -8 -25
+      -18z"/>
+      <path class="sv" d="M420 132 c0 -5 11 -19 25 -32 19 -18 25 -20 25 -8 0 8 -8 22 -18 31
+      -20 19 -32 22 -32 9z"/>
+      <path class="sv" d="M280 45 c0 -19 5 -35 10 -35 6 0 10 16 10 35 0 19 -4 35 -10 35 -5 0
+      -10 -16 -10 -35z"/>
+      </g>
+    </svg>
+
+    <script src="https://kit.fontawesome.com/8d9138af0b.js" crossorigin="anonymous"></script>
+    <script src="js/general.js"></script>
+  </body>
+</html>

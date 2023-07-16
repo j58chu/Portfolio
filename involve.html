@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Participating in the Amazon x Adobe Creative Jam Challenge">
+    <title>Ux Designer | Jessica Chu</title>
+    <link rel="icon" href="img/personal/jessicachulogo.webp">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <script src="js/theme.js"></script>
+  </head>
+  <body>
+    <nav id="top">
+      <div class="left-nav">
+        <img class="logo-nav" src="img/personal/jessicachulogo.webp" onclick="newHref('index')" alt="logo" width="1890" height="1890">
+      </div>
+      <div class="collapsed-nav">
+        <div id="toggle-theme" onclick="toggleTheme()"></div>
+        <div id="menuButton-nav" onclick="menuButton()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="right-nav" id="navMenu">
+        <div onclick="newHref('index')">
+          <span>Work</span>
+        </div>
+        <div onclick="newHref('about')">
+          <span>About</span>
+        </div>
+        <div>
+          <span><a href="img/personal/Resume_chujessica.pdf" target="_blank">Resume</a></span>
+        </div>
+        <div>
+          <span><a href="https://www.linkedin.com/in/jessica-c-72a26113b/" target="_blank" aria-label="LinkedIn" rel="noopener"><i class="fa fa-linkedin-square"></i></a></span>
+        </div>
+      </div>
+    </nav>
+    <div id="scroll-progress" class="red-bg"></div>
+    
+    <main>
+      <h1 class="red m fadeTop">inVOLve App</h1>
+      <h2 class="m fadeTop">Adobe Creative Jam X Amazon</h2>
+      <img class="img mt fadeTop" src="img/involve/involvehero.webp" width="1862" height="576" alt="hero banner">
+      <div class="overview fadeTop">
+        <div class="red-bg"></div>
+        <div>
+          <h4>
+            <b>Duration</b>
+            <p class="m">2 weeks (November 2021)</p>
+          </h4>
+          <h4>
+            <b>Tools</b>
+            <p class="m">Adobe XD</p>
+          </h4>
+          <h4>
+            <b>Project type</b>
+            <p class="m">UX research, UX design</p>
+          </h4>
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Brief</b></h2>
+        <div>
+          <h3 class="m">
+            <b>
+              <i>
+                "Inclusive design doesn't mean you're designing one thing for all people. 
+                You're designing a diversity of ways to participate so that everyone has 
+                a sense of belonging."
+              </i>
+            </b>      
+            <p>- Susan Goltsman</p>
+          </h3>
+          <h5>           
+            Adobe partnered with Amazon to host a designathon focused on inclusive design
+            and accessibility. With over 350 students that participated, I placed in the 
+            10th percentile. This was my first designathon and so going into this event I 
+            wanted to just have fun with it and see what I can create.
+          </h5>
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>The <span class="red">Prompt</span></b></h2>
+        <div>
+          <div class="bar mb">
+            <div class="red-bg"></div>
+            <h3 class="m">
+              <b>
+                Inspired by Amazon's initiative, your challenge is to design an inclusive experience in a 
+                third-party mobile app for high school students looking for opportunities to fulfill community 
+                service hours or volunteer to help their local community, no matter what their background or ability.
+              </b>
+            </h3>
+          </div>
+          <h5>
+            Reflecting on when I was a highschool student looking for volunteer hours, I remember that I only 
+            volunteered at places where I was familiar with. With limited experiences as a high school student,
+             the discoverability of volunteer roles are less prominent than a job search. 
+            <p class="red"><b>How Might We??</b></p>
+            <p>
+                When coming up with some goals and picturing the target audience, I came up with these how
+                 might we questions to help brainstorm ideas.
+            </p>
+          </h5>
+          <img class="img mb r" src="img/involve/hmw_involve.webp" width="2977" height="1392" alt="how might we questions">
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Use Cases + Goals</b></h2>
+        <div>
+          <h5>Having two brothers in high school also helped with imagining the target user and getting more
+             insights to the needs of this user group. Utilising their network of high school students, I was
+              able to collect information to curate a typical persona for this product.</h5>
+          <img class="img mt " src="img/involve/persona_involve.webp" width="646" height="240" alt="persona">
+          <h5>
+            <p class="red"><b>Considering all user types</b></p>
+            <p>
+              As I was coming up with a general user group that would be targetted, I also considered the 
+              accessibility needs of people with disabilities that may want to use the app as well. I created 
+              a chart that outlines all the use cases that I could think of along with their accessibility needs.
+            </p>
+          </h5>
+          <img class="img mt " src="img/involve/usecases_involve.webp" width="1698" height="1736" alt="persona">
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Site Map + Features</b></h2>
+        <div>
+          <h5>Because of the time limitation, it was crucial to showcase only the key features and functionalities 
+            of the product. I ended up designing 5 different functionalities for the app. These functionalities included:
+            <ul>
+              <li>Being suggested volunteer positions based on location/interest</li>
+              <li>View and manage scheduling of volunteer roles</li>
+              <li>Search for volunteer roles</li>
+              <li>Track hours and customize accessibility settings</li>
+              <li>View application progress of applied roles on the app</li>
+            </ul>
+            Once I figured out the main functionalities of the app, I created a site map to guide myself in designing the flow 
+            of the whole app and making sure I made screens for each map component.
+          </h5>
+          <img class="img mt" src="img/involve/userflow_involve.webp" width="1936" height="1365" alt="sitemap">
+        </div>
+      </div>
+      <hr class="fadeTop">
+      <div class="tab fadeTop">
+        <h2><b>Design Solution</b></h2>
+        <div>
+          <h5 class="red">
+            <b>Mentorship</b>
+          </h5>
+          <h5>
+            As a part of the creative jam, participants were able to get a mentorship session with an Amazon designer. 
+            I got the chance to get  feedback on my designs with one of Amazon's Principal designer, <b>Michele Palazzo</b>. 
+            Some of the feedback I took from the session included:
+            <ul>
+              <li>Have tiles so that users can direct attention to one position at a time</li>
+              <li>Adjust search engine to be selective rather than have a type functionality</li>
+              <li>Reduce and simplify text to avoid screens being too text heavy</li>
+              <li>Reduce onboarding process to only what is considered necessary information</li>
+            </ul>
+          </h5>
+          <h5 class="red">
+            <b>Final Iteration</b>
+          </h5>
+          <h5>
+            Below is a breakdown of the final product inVOLve. You view the full prototype by clicking the button below
+          </h5>
+          <a class="button" href="https://xd.adobe.com/view/35560c1f-e105-4c9f-8a6c-948c18edc8e5-6005/screen/33fc9310-3f92-4bb1-b0e4-4f9f58cf162e" target="_blank" rel="noopener"><h5>View prototype here</h5></a>
+          <div class="features mb">
+            <div>
+              <div>
+                <h4><b>Onboarding</b></h4>
+                <h5>
+                  I aimed to make the onboarding process as quick and efficient as possible.
+                  <p>
+                  Instead of having to input their information manually, students can have their ID scanned
+                   to retrieve basic information used to track volunteer hours. 
+                  </p>
+                  <p>
+                    Following that, they can then set their interests and customize accessibility settings to their needs.
+                  </p>
+                </h5>
+              </div>
+              <div class="iphone12">
+                <img src="img/involve/iphone12.webp" width="1179" height="2257" alt="iphone">
+                <video src="img/involve/onboarding.mp4" loop autoplay></video>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h4><b>Explore</b></h4>
+                <h5>
+                  The explore page acts as the main page for the app.
+                  <p><i>Browsing</i></p>
+                  <p>Students can browse through volunteer positions based on the interests they've selected or by location.</p>
+                  <p>The tiles displayed only the most important information which includes:</p>
+                  <ul>
+                    <li>Title</li>
+                    <li>Company</li>
+                    <li>Volunteer date</li>
+                    <li>Number of hours</li>
+                  </ul>
+                  <p><i>Save</i></p>
+                  <p>If they find interest in a position, they can save the position and it will show up int he 'Saved' tab.</p>
+              </div>
+              <div class="iphone12">
+                <img src="img/involve/iphone12.webp" width="1179" height="2257" alt="iphone">                
+                <video src="img/involve/explore.mp4" loop autoplay></video>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h4><b>Search Engine</b></h4>
+                <h5>If users want to search for more volunteer roles, they can tap the search button at the top of the explore page.
+                  This will lead the user to a couple of search filters that will help curate a list of search results for them.
+                  <p>To make it easier to filter through the jobs, I added filter and sort functions to help with refining search.</p>
+                </h5>
+              </div>
+              <div class="iphone12">
+                <img src="img/involve/iphone12.webp" width="1179" height="2257" alt="iphone">
+                <video src="img/involve/search.mp4" loop autoplay></video>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h4><b>Schedule</b></h4>
+                <h5>After speaking with some highschool students about their experiences with volunteering, there 
+                  was a common need for students to keep track and be reminded of their day-to-day tasks.
+                  <p><i>"School oftentimes gets busy, it would be nice to have some sort of schedule that reminds me of the things
+                    I have to do"</i></p>
+                </h5>
+              </div>
+              <div class="iphone12">
+                <img src="img/involve/iphone12.webp" width="1179" height="2257" alt="iphone">
+                <video src="img/involve/schedule.mp4" loop autoplay></video>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h4><b>Inbox</b></h4>
+                <h5>The inbox was a place for students to keep track of their application progress. They can see 
+                  what positions they've applied for, which jobs have been approved and look at their past history of jobs.               
+                  <p>The inbox also connects to the scheduling page by allowing students to add successful jobs into 
+                    their calendar.</p>
+                </h5>
+              </div>
+              <div class="iphone12">
+                <img src="img/involve/iphone12.webp" width="1179" height="2257" alt="iphone">
+                <video src="img/involve/inbox.mp4" loop autoplay></video>
+              </div>
+            </div>
+          </div>
+          
+          <h5>
+            <b>Profile</b>
+          </h5>
+          <h5>
+            The profile page contains the user's personal information, volunteer hour tracking, and settings. I planned 
+            on incorporating a gamification process to the app by utilising awards/badges as a motivator for students to
+             volunteer more. Unfortunately, I wasn't able to fully flush out the concept in time in which I would have made 
+             it a more prominent feature of the app.
+          </h5>
+          <img class="img r mt mb" src="img/involve/profile_involve.webp" width="2933" height="1183" alt="profile screens">
+          <h5 class="red">
+            <b>How I incorporated inclusive design</b>
+          </h5>
+          <h5>
+            Since inclusive design was the main focus of the prompt, here was how I believed I achieved that in my design:
+          </h5>
+          <div class="card">
+            <div>
+              <h4 class="m"><b>Including accessibility into onboarding </b></h4>
+              <h5 class="mb">
+                Including accessibility options in the onboarding process adds consideration of all user types before
+                even interacting with the app. 
+              </h5>
+            </div>
+            <img src="img/involve/accessible_involve.webp" width="390" height="844" alt="accessibility options in onboarding">
+          </div>
+          <div class="card">
+            <div>
+              <h4 class="m"><b>Adding the option for text-to-speech</b></h4>
+              <h5>
+                In each job posting, I've included an audio option for any user to be 
+                able convert the text-speech by simply tapping the button
+              </h5>                 
+            </div>
+            <img src="img/involve/jobdetails_involve.webp" width="390" height="855" alt="iphone screen of job posting">
+          </div>
+          <div class="card">
+            <div>
+              <h4 class="m"><b>Filtering options</b></h4>
+              <h5>
+                Each volunteer position require different skillsets. 
+                This makes it important to have a filtering function to
+                 be able to filter based on difficulty, availability, and environment
+                  (in-person/remote) considering students have different preferences.
+              </h5>
+            </div>
+            <img src="img/involve/filters_involve.webp" width="1642" height="1652" alt="iphone">
+          </div>
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Takeaways</b></h2>
+        <div>
+          <h5>
+            With the continuation of online school, I wanted to keep myself busy and 
+            challenge myself to get creative and be inspired by other student's work. 
+            This experience was super fun and a learning opportunity. Here are my final thoughts:
+          </h5>
+          <div class="bar mb mt">
+            <div class="red-bg"></div>
+            <h5>
+              <b class="red">Designing with everyone in mind</b>
+              <p>
+                The importance of practicing inclusive design and prioritizing accessibility is evidently growing. 
+                As UX designers, we should continue to strive to design for all and make sure that our designs abide 
+                with accessibility standards.
+              </p>
+            </h5>
+          </div>
+          <div class="bar mb">
+            <div class="red-bg"></div>
+            <h5>
+              <b class="red">Continuing to iterate and grow as a designer</b>
+              <p>
+                Designs are never completely done and closed, and if I had all the time in the world I would 
+                be constantly looking for ways to improve and iterate on my design. I think it is really insightful 
+                to be able to see other participant's work and understand their thought processes. 
+                In doing so, I feel like I have gotten newfound inspiration to take with me into my next project!
+              </p>
+              <p>It is not so often that we get the chance to practice designing and have complete creative freedom.
+                This experience was a nice opportunity to continue to develop my skills as a designer and be more involved in the design community
+              </p>
+            </h5>
+          </div>
+          <h5>
+            The Adobe Creative Jam hosts so many events throughout the year that I am already looking forward to 
+            see what I can accomplish in the next event! Stay tuned!
+          </h5>
+        </div>
+      </div>
+    </main>
+
+    <a class="back-to-top" href="#top"><i class="fas fa-angle-up"></i></a>
+
+    <div id="string"></div>
+    <svg id="light" width="48.000000pt" height="48.000000pt" viewBox="0 0 58.000000 58.000000" onclick="toggleTheme()">
+      <g id="sv" transform="translate(0.000000,58.000000) scale(0.100000,-0.100000)" fill="#FFFFFF" stroke="none">
+      <path d="M243 540 c-19 -8 -23 -17 -23 -56 0 -38 -6 -53 -31 -82 -64 -72 -76
+      -147 -34 -217 59 -101 211 -101 270 0 42 70 30 145 -34 217 -23 27 -31 45 -31
+      74 0 22 -4 45 -9 52 -10 17 -79 25 -108 12z m92 -47 c0 -26 -3 -28 -44 -28
+      -27 0 -46 5 -48 13 -3 8 7 12 31 12 48 0 46 18 -1 23 -33 3 -31 4 12 5 49 2
+      51 1 50 -25z m37 -100 c64 -86 73 -124 41 -190 -46 -98 -200 -97 -247 1 -30
+      64 -17 120 48 198 27 33 36 38 76 38 43 0 48 -3 82 -47z"/>
+      <path class="sv" d="M110 442 c0 -14 39 -46 47 -39 3 4 -2 16 -12 27 -19 21 -35 26 -35
+      12z"/>
+      <path class="sv" d="M435 430 c-10 -11 -15 -23 -12 -27 8 -7 47 25 47 39 0 14 -16 9 -35
+      -12z"/>
+      <path class="sv" d="M40 270 c0 -5 14 -10 30 -10 17 0 30 5 30 10 0 6 -13 10 -30 10 -16
+      0 -30 -4 -30 -10z"/>
+      <path class="sv" d="M480 270 c0 -5 14 -10 30 -10 17 0 30 5 30 10 0 6 -13 10 -30 10 -16
+      0 -30 -4 -30 -10z"/>
+      <path class="sv" d="M127 122 c-28 -30 -20 -49 8 -22 25 24 32 40 17 40 -5 0 -16 -8 -25
+      -18z"/>
+      <path class="sv" d="M420 132 c0 -5 11 -19 25 -32 19 -18 25 -20 25 -8 0 8 -8 22 -18 31
+      -20 19 -32 22 -32 9z"/>
+      <path class="sv" d="M280 45 c0 -19 5 -35 10 -35 6 0 10 16 10 35 0 19 -4 35 -10 35 -5 0
+      -10 -16 -10 -35z"/>
+      </g>
+    </svg>
+
+    <script src="https://kit.fontawesome.com/8d9138af0b.js" crossorigin="anonymous"></script>
+    <script src="js/general.js"></script>
+  </body>
+</html>

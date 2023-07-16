@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Improving the interaction design of Tangerine's input fields">
+    <title>Ux Designer | Jessica Chu</title>
+    <link rel="icon" href="img/personal/jessicachulogo.webp">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <script src="js/theme.js"></script>
+  </head>
+  <body>
+    <nav id="top">
+      <div class="left-nav">
+        <img class="logo-nav" src="img/personal/jessicachulogo.webp" onclick="newHref('index')" alt="logo" width="1890" height="1890">
+      </div>
+      <div class="collapsed-nav">
+        <div id="toggle-theme" onclick="toggleTheme()"></div>
+        <div id="menuButton-nav" onclick="menuButton()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="right-nav" id="navMenu">
+        <div onclick="newHref('index')">
+          <span>Work</span>
+        </div>
+        <div onclick="newHref('about')">
+          <span>About</span>
+        </div>
+        <div>
+          <span><a href="img/personal/Resume_chujessica.pdf" target="_blank">Resume</a></span>
+        </div>
+        <div>
+          <span><a href="https://www.linkedin.com/in/jessica-c-72a26113b/" target="_blank" aria-label="LinkedIn" rel="noopener"><i class="fa fa-linkedin-square"></i></a></span>
+        </div>
+      </div>
+    </nav>
+    <div id="scroll-progress" class="orange-bg"></div>
+    <main>
+      <h1 class="orange m fadeTop">Amount Input Field Exploration</h1>
+      <h2 class="m fadeTop">Tangerine</h2>
+      <img class="img mt fadeTop" src="img/tangerine/tangerinehero.webp" width="4347" height="1330" alt="tangerine">
+      <div class="overview fadeTop">
+        <div class="orange-bg"></div>
+        <div>
+          <h4>
+            <b>Role</b>
+            <p class="m">UX Associate</p>
+          </h4>
+          <h4>
+            <b>Duration</b>
+            <p class="m">July - August 2021</p>
+          </h4>
+          <h4>
+            <b>Tools</b>
+            <p class="m">Sketch, Invision</p>
+          </h4>
+          <h4>
+            <b>Project type</b>
+            <p class="m">Interaction Design</p>
+          </h4>
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Brief</b></h2>
+        <h5>
+          Input fields are a common interaction that users go through when filling out a form. Especially in banking, filling out the amount input field is something that banking clients have to interact with whenever they need to pay a bill, send or transfer money. Tangerine was looking at opportunities to improve the user feedback in this interaction, specifically the amount input field.
+          <img class="img mt" src="img/tangerine/inputfield_anatomy.webp" width="2529" height="1014" alt="Input field anatomy">
+        </h5>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>My <span class="orange">Role</span></b></h2>
+        <h5>
+          This was one of the design explorations that I had conducted during my internship at Tangerine. Throughout this project, I worked both independently and collaboratively with the design team to come up with a proposed solution to present to the VP of Digital + Innovation and to propose as a global component change.
+        </h5>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>The <span class="orange">Problem</span></b></h2>
+        <div>
+          <div class="bar">
+            <div class="text-bg"></div>
+            <h3 class="m">
+              <b>
+                Is there an opportunity to improve the user feedback as they are entering an amount value in an input field?
+              </b>
+            </h3>    
+          </div>
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Current Input Field Analysis</b></h2>
+        <div>
+          <h5>
+            Beginning this exploration, I first started by analysing the current amount input fields and identified which states have potential to be improved on. 
+            <p>
+              I outlined the micro-interactions and flow that takes place between the different states. Breaking down the interaction, I was able to focus on certain states that I thought needed improving in the current design.</p>
+          </h5>
+          <img class="img mb" src="img/tangerine/Input field path.webp" width="1964" height="854" alt="Input Field Path">
+          <h5>
+            In my own UX audit of the current state of the amount field input, I wrote down notes regarding incosistensies in the formatting as well as possible solutions to improve these inconsistencies.
+          </h5>
+          <img class="img" src="img/tangerine/Analysis.webp" width="1559" height="1014" alt="Analysis">
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Design Iterations</b></h2>
+        <div>
+          <h5>
+            Following my analysis of the current design of the input fields, I then experimented with different  ideas that may contribute to better usability for the amount field. I not
+             the changes I made from the current design and outlined the benefits and drawbacks of each option.
+             <img class="img mt mb" src="img/tangerine/Exploration.webp" width="2529" height="1014" alt="Exploration">
+          </h5>
+          <h5>
+            After independently experimenting with different design options, I then presented these design options in the team's design review to gather feedback from other designers. 
+            The main feedback I got from the review was to look over the current angular and material design solution for input fields and leverage that in the final solution.
+            <p><b><i>Referencing Material Design</i></b></p>
+          </h5>
+          <h5>Looking over the Material Design system was super helpful in coming up with the coming up with a final design solution. In comparing my design with Material, I found 
+            that that it aligned closely with the first option I created.
+            <img class="img mt" src="img/tangerine/comparison_fields.webp" width="2529" height="1014" alt="Input field anatomy">
+          </h5>
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Proposed Change</b></h2>
+        <div>
+          <h5>
+            In the second review session, I presented a final solution that combined my design with the material design solution and ensured that that it matched with Tangerine's design system.          </h5>
+          <img class="img mt fadeTop" src="img/tangerine/Proposed change.webp" width="1964" height="2023" alt="Use Cases">
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Use Cases</b></h2>
+        <div>
+          <h5>
+            I continued to futher explore the amount input field design by picturing the different use cases with the proposed solution. These use cases included:
+            <ul>
+              <li>Entering an amount without decimals</li>
+              <li>Entering an amount with decimals</li>
+              <li>Entering an large value in the thousands (with commas)</li>
+              <li>Entering an amount when there is a currency change</li>
+              <li>Error states</li>
+            </ul>
+          <img class="img mt fadeTop" src="img/tangerine/Use cases.webp" width="1964" height="2023" alt="Use Cases">
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Demo / Prototype</b></h2>
+        <div>
+          <h5>
+            To picture it in a more realistic scenario, I also prototyped the proposed input field design into a user flow that contained an amount input field. This was to provide more contextual visualization of how the solution would be implemented within Tangerine's current forms that include an amount field.          </h5>
+          <iframe title="tangerine" class="mt" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUds0elcczQsiDjSWCIVAyQ%2FPortfolio-site%3Fpage-id%3D790%253A54%26node-id%3D797%253A3%26viewport%3D241%252C48%252C1.29%26scaling%3Dscale-down%26starting-point-node-id%3D797%253A3" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Takeaways</b></h2>
+        <h5>
+          This project gave me the opportunity to make an impact on Tangerine's design system and explore potential opportunity for improvement in usability of input fields. It is my first project where I was able to focus on interaction design and look at the micro-interactions of an input field component.
+          <p>
+            Thanks to the support of the design team at Tangerine, I was able to gain a better understanding of the steps needed to fully flush out an exploration which includes: research, analysis, examining use cases, getting feedback and iterating on designs. 
+          </p>
+          <p>
+            Although it is a small change, I think that my solution will help to improve the consistency and usability when clients enter in an amount value. I am also grateful for the opportunity to be able to present my exploration findings and proposal to the VP of Digital + Innovation.
+          </p>
+        </h5>
+      </div>
+    </main>
+
+    <a class="back-to-top" href="#top"><i class="fas fa-angle-up"></i></a>
+
+    <div id="string"></div>
+    <svg id="light" width="48.000000pt" height="48.000000pt" viewBox="0 0 58.000000 58.000000" onclick="toggleTheme()">
+      <g id="sv" transform="translate(0.000000,58.000000) scale(0.100000,-0.100000)" fill="#FFFFFF" stroke="none">
+      <path d="M243 540 c-19 -8 -23 -17 -23 -56 0 -38 -6 -53 -31 -82 -64 -72 -76
+      -147 -34 -217 59 -101 211 -101 270 0 42 70 30 145 -34 217 -23 27 -31 45 -31
+      74 0 22 -4 45 -9 52 -10 17 -79 25 -108 12z m92 -47 c0 -26 -3 -28 -44 -28
+      -27 0 -46 5 -48 13 -3 8 7 12 31 12 48 0 46 18 -1 23 -33 3 -31 4 12 5 49 2
+      51 1 50 -25z m37 -100 c64 -86 73 -124 41 -190 -46 -98 -200 -97 -247 1 -30
+      64 -17 120 48 198 27 33 36 38 76 38 43 0 48 -3 82 -47z"/>
+      <path class="sv" d="M110 442 c0 -14 39 -46 47 -39 3 4 -2 16 -12 27 -19 21 -35 26 -35
+      12z"/>
+      <path class="sv" d="M435 430 c-10 -11 -15 -23 -12 -27 8 -7 47 25 47 39 0 14 -16 9 -35
+      -12z"/>
+      <path class="sv" d="M40 270 c0 -5 14 -10 30 -10 17 0 30 5 30 10 0 6 -13 10 -30 10 -16
+      0 -30 -4 -30 -10z"/>
+      <path class="sv" d="M480 270 c0 -5 14 -10 30 -10 17 0 30 5 30 10 0 6 -13 10 -30 10 -16
+      0 -30 -4 -30 -10z"/>
+      <path class="sv" d="M127 122 c-28 -30 -20 -49 8 -22 25 24 32 40 17 40 -5 0 -16 -8 -25
+      -18z"/>
+      <path class="sv" d="M420 132 c0 -5 11 -19 25 -32 19 -18 25 -20 25 -8 0 8 -8 22 -18 31
+      -20 19 -32 22 -32 9z"/>
+      <path class="sv" d="M280 45 c0 -19 5 -35 10 -35 6 0 10 16 10 35 0 19 -4 35 -10 35 -5 0
+      -10 -16 -10 -35z"/>
+      </g>
+    </svg>
+
+    <script src="https://kit.fontawesome.com/8d9138af0b.js" crossorigin="anonymous"></script>
+    <script src="js/general.js"></script>
+  </body>
+</html>
