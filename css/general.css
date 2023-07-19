@@ -345,12 +345,12 @@ div.active-menu {max-height: fit-content;}
 .about-me {
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 1.2fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1em;
 }
 .about-me > img {
     border-radius: 50%;
-    width: 100%;
+    width: min(100%, 18em);
     height: auto;
 }
 .about-img {
