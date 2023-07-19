@@ -344,8 +344,14 @@ div.active-menu {max-height: fit-content;}
 }
 .about-me {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 3em;
+    align-items: center;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 1em;
+}
+.about-me > img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
 }
 .about-img {
     margin: 1em 0 4em 0;
@@ -484,6 +490,10 @@ div.active-menu {max-height: fit-content;}
     }
     .about-me {
         display: block;
+    }
+    .about-me > img {
+        margin: 0 1em 2em 1em;
+        width: calc(100% - 2em);
     }
     .about-img {
         display: block;
