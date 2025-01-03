@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'vollkorn';
+    src: url('../fonts/Vollkorn.ttf');
+}
+@font-face {
+    font-family: 'vollkorn-italic';
+    src: url('../fonts/Vollkorn-Italic.ttf');
+}
 .dark-theme {
     --text-1: #FFFFFF;
     --text-2: #000000;
@@ -90,6 +98,12 @@ a {
     color: var(--text-1);
     transition: all 0.255s linear;
 }
+.vollkorn {
+    font-family: 'vollkorn', serif;
+}
+.vollkorn-italic {
+    font-family: 'vollkorn-italic', serif;
+}
 .quote {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1em;
@@ -161,7 +175,8 @@ main {
     margin: 7em 9em;
 }
 .main-text {
-    max-width: 32em;
+    max-width: 34em; 
+    line-height: 1.9em;
 }
 canvas {
     width: 100%;
@@ -273,6 +288,9 @@ canvas {
   min-height: calc(100vh - 15em);
   margin-bottom: 10em;
 }
+.title-card h1 {
+    font-weight: 900;
+} 
 .menu-selection {
   display: flex;
   flex-wrap: wrap;
@@ -647,7 +665,7 @@ div.active-menu {max-height: fit-content; opacity: 1;}
         display: block;
         border-radius: 0;
         box-shadow: none;
-        padding: 0.8rem 1.4rem;
+        padding: 1.3em 1.4em; 
         border-top: 1px solid #242424;
         margin: 0;
     }
