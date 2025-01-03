@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Improving the interaction design of Tangerine's input fields">
+    <title>Ux Designer | Jessica Chu</title>
+    <link rel="icon" href="img/personal/jessicachulogo.webp">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <script src="js/theme.js"></script>
+  </head>
+  <body>
+    <nav id="top">
+      <div class="left-nav">
+        <img class="logo-nav" src="img/personal/jessicachulogo.webp" onclick="newHref('index')" alt="logo" width="1890" height="1890">
+      </div>
+      <div class="collapsed-nav">
+        <div id="toggle-theme" onclick="toggleTheme()"></div>
+        <div id="menuButton-nav" onclick="menuButton()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="right-nav" id="navMenu">
+        <div onclick="newHref('index')">
+          <span>Work</span>
+        </div>
+        <div onclick="newHref('about')">
+          <span>About</span>
+        </div>
+        <div>
+          <span><a href="img/personal/JessicaChuResume.pdf" target="_blank">Resume</a></span>
+        </div>
+        <div>
+          <span><a href="https://www.linkedin.com/in/jessica-c-72a26113b/" target="_blank" aria-label="LinkedIn" rel="noopener"><i class="fa fa-linkedin-square"></i></a></span>
+        </div>
+      </div>
+    </nav>
+    <div id="scroll-progress" class="blue-bg"></div>
+    <main>
+      <h1 class="blue m fadeTop">ChatCITCO</h1>
+      <h2 class="m fadeTop">Introducing generative AI to improve customer support system among Citco applications</h2>
+      <img class="img mt fadeTop" src="img/citco/citcohero.webp" width="4347" height="1330" loading="eager" alt="tangerine">
+      <div class="overview fadeTop">
+        <div class="blue-bg"></div>
+        <div>
+          <h4>
+            <b>Role</b>
+            <p class="m">Lead Product Designer</p>
+          </h4>
+          <h4>
+            <b>Duration</b>
+            <p class="m">March 2023</p>
+          </h4>
+          <h4>
+            <b>Tools</b>
+            <p class="m">Figma</p>
+          </h4>
+          <h4>
+            <b>Project type</b>
+            <p class="m">UX Design, AI, Hackathon</p>
+          </h4>
+        </div>
+      </div>
+      <div class="fadeTop">
+        <span class="quote">~ "74% of internet users prefer uing chatbots for simple questions" ~</span>
+      </div>
+      <div class="fadeTop">
+        <h5>
+          With the emergence of generative AI and new technologies, Citco wanted to bring forth a challenge for IT employees to participate in a 3-day hackathon to solve any problem space within our company and present a working product. I was invited to participate in this hackathon alongside people from different IT fields ranging from developers and architects. We came up with a solution to optimize Citco’s support system through leveraging AI and machine learning. I was the lead designer on the team in charge of flushing out the concept, designing and presenting our final product. 
+        </h5>
+        <h5>
+          My team placed <b>first</b> and had the opportunity to present our idea to Citco’s board of directors.
+        </h5>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>The Problem Space</b></h2>
+        <h5>
+          While discussing potential problem spaces, I had noticed how there was a lack of customer support when it came to our applications. In analyzing my project team’s product (Citco Waterfall), this was what I found as the current support options that we provide on this application. 
+          <div class="side-by-side mt mb">
+            <img class="img" src="img/citco/Current Support Example.webp" loading="lazy" width="7528" height="5950" alt="Input field anatomy">
+            <span>
+              Common support tab options available for clients in Citco Data Services, Waterfall and Treasury Applications. Where would a client go to get support for issues relating to the product or know who to contact?
+            </span>
+          </div>
+          This was further established when I got in touch with my product owner who had said they get customer feedback from clients writing in their issues to our separate IT portal which then would get resolved through a tiered customer support system. The response time for getting support could range from hours to a couple of days. I thought - <b>There must be a faster way</b>. This led me to thinking:
+        </h5>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>The <span class="blue">Challenge</span></b></h2>
+        <div class="bar">
+          <div class="text-bg"></div>
+          <h3 class="m">
+            <b>
+              How might we optimize Citco’s support system to boost the client experience when using Citco products?
+            </b>
+          </h3>
+        </div>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Mapping out the <span class="blue">current process</span></b></h2>
+        <h5>
+          Forming a team from different products teams has its perks as we were able to tap into how different products handle client support. We reached out to our own teams and shared the different support approaches. I took our research and summarized what the current user journey was and some of pain points that comes with each step of the journey
+        </h5>
+      </div>
+      <img class="img fadeTop" src="img/citco/Current Process.webp" loading="lazy" width="1019" height="427" alt="Current process">
+      <div class="tab fadeTop">
+        <h2><b>What's the <span class="blue">solution</span>?</b></h2>
+        <h5>
+          I led a quick brainstorming workshop to brainstorm ideas for our solution and weighing out the pros and cons for each idea we came up with. Through process of elimination and thinking about the users needs, we ultimately landed on creating a working chatbot that can be integrated within our existing products.
+          <img class="img mt" src="img/citco/Brainstorming.webp" loading="lazy" width="935" height="545" alt="Chatbot">
+          <b>Defining our use cases</b>
+          <p>
+            Once we agreed on our solution, we got to discussing the different use cases for how a user might want to utilize this integratabtle feature in applications. We outlined four main use cases:
+          </p>
+          <ul>
+            <b>
+              <li>How-to questions</li>
+              <li>Encountering issues with an application</li>
+              <li>Login/Authentication support</li>
+              <li>Locating information</li>
+            </b>
+          </ul>
+        </h5>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Exploration</b></h2>
+        <h5>
+          As the designer on the team, I researched and looked at current usages of chat bot support system to make notes and find inspiration to what makes a good chatbot experience. Meanwhile the developers got to working out the framework to build out this integration.
+          <img class="img mt" src="img/citco/Anatomy of chatbot.webp" loading="lazy" width="935" height="545" alt="Chatbot">
+          <b>Designing and iterating</b>
+          <p>
+            I explored many different iterations of the design (experimenting with the colours of our design systems, including attachments, screenshots, prompting answers), look and feel as well as drafting up sample copy ideas. Due to time constraints and the need to build a functioning demo, we went developed the most basic functionalities for the chat bot which was the chat interaction. 
+          </p>
+          <img class="img" src="img/citco/Entry Point.webp" loading="lazy" width="1002" height="583" alt="Design Iterations">
+          <p>
+            I also took into considered the conversation design of the chatbot, coming up with the copy and responses for common prompts. I did research on UX copy that would keeping things concise and intuitive.
+          </p>
+          <img class="img mt" src="img/citco/Chatbot Design.webp" loading="lazy" width="1008" height="621" alt="Design Iterations">
+        </h5>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Final Product</b></h2>
+        <h5>
+          By the third day of the hackathon, we had a functioning demo product to present. Since the demo is stored locally in our company’s system, I’ve recreated what we demo’ed in this prototype.
+          <iframe class="mt" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/BMRVJUJeBj2ook0DAS6geW/Chatbot-demo?page-id=0%3A1&node-id=13-73&p=f&viewport=441%2C-34%2C0.16&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=13%3A73&embed-host=share" allowfullscreen></iframe>
+        </h5>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Presenting our project</b></h2>
+        <h5>
+          I was in charge of putting together our team’s slide deck, creating the structure of the presentation and presenting the overview of what our problem space was, our thinking, and our solution.
+          <div class="side-by-side mt mb">
+            <img class="img" src="img/citco/Presenting_1.webp" loading="lazy" width="4898" height="3265" alt="Presenting">
+            <img class="img" src="img/citco/Presenting_2.webp" loading="lazy" width="4898" height="3265" alt="Presenting">
+          </div>
+          <a class="button-link" href="img/citco/ChatCitco Slide Deck.pdf" target="_blank">
+            View Slide Deck
+          </a>
+        </h5>
+      </div>
+      <div class="tab fadeTop">
+        <h2><b>Takeaways</b></h2>
+        <h5>
+          <b>Embracing Constraints:</b>
+          <p class="m mb">
+            One of the most valuable lessons learned from the design hackathon was the importance of embracing constraints. With limited time, resources, and scope, our team was forced to think creatively and prioritize effectively. Rather than viewing constraints as limitations, we learned to see them as opportunities for innovation. By focusing on the essentials and finding solutions within the given constraints, we were able to deliver impactful designs that addressed the core needs of our users.
+          </p>
+          <b>Resilience and Adaptability:</b>
+          <p class="m">
+            This hackathon taught us the importance of resilience and adaptability in the face of challenges. From technical glitches to unexpected feedback, we couple obstacles throughout the hackathon. However, by maintaining a positive attitude, staying flexible, and persevering through setbacks, we were able to overcome these challenges and keep our project on track. This experience reinforced the importance of resilience and need for strong communication to overcome project challenges.
+          </p>
+          <p>
+            From this experience I have gained a deeper understanding of what it takes to create impactful and user-centred designs, setting a solid foundation for future projects.
+          </p>
+        </h5>
+      </div>
+    </main>
+
+    <a class="back-to-top" href="#top"><i class="fas fa-angle-up"></i></a>
+
+    <div id="string"></div>
+    <svg id="light" width="48.000000pt" height="48.000000pt" viewBox="0 0 58.000000 58.000000" onclick="toggleTheme()">
+      <g id="sv" transform="translate(0.000000,58.000000) scale(0.100000,-0.100000)" fill="#FFFFFF" stroke="none">
+      <path d="M243 540 c-19 -8 -23 -17 -23 -56 0 -38 -6 -53 -31 -82 -64 -72 -76
+      -147 -34 -217 59 -101 211 -101 270 0 42 70 30 145 -34 217 -23 27 -31 45 -31
+      74 0 22 -4 45 -9 52 -10 17 -79 25 -108 12z m92 -47 c0 -26 -3 -28 -44 -28
+      -27 0 -46 5 -48 13 -3 8 7 12 31 12 48 0 46 18 -1 23 -33 3 -31 4 12 5 49 2
+      51 1 50 -25z m37 -100 c64 -86 73 -124 41 -190 -46 -98 -200 -97 -247 1 -30
+      64 -17 120 48 198 27 33 36 38 76 38 43 0 48 -3 82 -47z"/>
+      <path class="sv" d="M110 442 c0 -14 39 -46 47 -39 3 4 -2 16 -12 27 -19 21 -35 26 -35
+      12z"/>
+      <path class="sv" d="M435 430 c-10 -11 -15 -23 -12 -27 8 -7 47 25 47 39 0 14 -16 9 -35
+      -12z"/>
+      <path class="sv" d="M40 270 c0 -5 14 -10 30 -10 17 0 30 5 30 10 0 6 -13 10 -30 10 -16
+      0 -30 -4 -30 -10z"/>
+      <path class="sv" d="M480 270 c0 -5 14 -10 30 -10 17 0 30 5 30 10 0 6 -13 10 -30 10 -16
+      0 -30 -4 -30 -10z"/>
+      <path class="sv" d="M127 122 c-28 -30 -20 -49 8 -22 25 24 32 40 17 40 -5 0 -16 -8 -25
+      -18z"/>
+      <path class="sv" d="M420 132 c0 -5 11 -19 25 -32 19 -18 25 -20 25 -8 0 8 -8 22 -18 31
+      -20 19 -32 22 -32 9z"/>
+      <path class="sv" d="M280 45 c0 -19 5 -35 10 -35 6 0 10 16 10 35 0 19 -4 35 -10 35 -5 0
+      -10 -16 -10 -35z"/>
+      </g>
+    </svg>
+
+    <script src="https://kit.fontawesome.com/8d9138af0b.js" crossorigin="anonymous"></script>
+    <script src="js/general.js"></script>
+  </body>
+</html>
