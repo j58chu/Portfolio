@@ -16,8 +16,9 @@ nav {
 .logo-nav {
   cursor: pointer;
   user-select: none;
-  width: 4rem;
+  width: 3rem;
   height: auto;
+  margin-left: 16px;
 }
 .right-nav {
   display: flex;
