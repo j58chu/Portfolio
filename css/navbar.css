@@ -20,6 +20,9 @@ nav {
   height: auto;
   margin-left: 16px;
 }
+.logo-svg {
+  fill: var(--secondary);
+}
 .right-nav {
   display: flex;
   align-items: center;
